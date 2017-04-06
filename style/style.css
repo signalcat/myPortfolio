@@ -1,0 +1,93 @@
+.container {
+    padding: 80px 120px;
+}
+
+/* Add a dark background color with a little bit see-through */ 
+.navbar {
+    margin-bottom: 0;
+    background-color: #8fd8af!important;
+    border: 0 !important;
+    font-family: 'Abel';
+    font-size: 13px !important;
+    font-weight: 1;
+    letter-spacing: 1px;
+    opacity: 0.3;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: Black !important;
+    font-weight: 20;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: white!important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: black !important;
+    background-color: white !important;
+    opacity: 0.2;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+.introVideo {
+    display: block;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    background-color: #f2f7f4 !important; 
+    color: grey !important;
+    margin-bottom: 0;
+}
+
+#myNavBar {
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+#portfolio_title {
+    color: grey !important;
+    text-align: center;
+}
+
+#portfolio_title img{
+    display: block;
+    margin: auto;
+}
+
+body {
+    background-color:  #f2f7f4 !important;
+}
+
+footer {
+      background-color:  #8fd8af;
+      padding: 25px;
+      opacity: 0.3;
+}
