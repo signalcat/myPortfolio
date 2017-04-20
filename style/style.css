@@ -67,7 +67,6 @@
 }
 
 #myNavBar {
-    position: fixed;
     left: 0;
     right: 0;
 }
@@ -86,8 +85,22 @@ body {
     background-color:  #f2f7f4 !important;
 }
 
+
+.gallery-titles {
+    font-family: 'Abel';
+    color: grey !important;
+    text-align: center;
+}
+
+
 footer {
       background-color:  #8fd8af;
       padding: 25px;
       opacity: 0.3;
 }
+
+.row {
+    margin-bottom: 200px;
+}
+
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title id="gallery-title">Gallery</title>
+	<link rel="stylesheet" href="style/style.css">
+    <script src="https://unpkg.com/react@15.3.0/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.3.0/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="https://unpkg.com/jquery@3.1.0/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/remarkable@1.7.1/dist/remarkable.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/48938155eb24b4ccdde09426066869504c6dab3c/dist/css/bootstrap.min.css">
+    <link href='//fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse" id="myNavBar">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <a class="navbar-brand" href="#">Portfolio</a>
+	    </div>
+	    <div class="collapse navbar-collapse">
+	      <ul class="nav navbar-nav">
+	        <li><a href="index.html">Home</a></li>
+	        <li><a href="#">About</a></li>
+	        <li class="active"><a href="Gallery.html">Gallery</a></li>
+	        <li><a href="Contact.html">Contact</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>	
+	<div class="row" id="header">
+    	<div class="col-lg-12">
+    		<h1 class="gallery-titles" id="gallery-title">Projects Gallery</h1>
+    	</div>
+    </div>
+    <h2 class="gallery-titles" id="gallery-subtitle">Sketch Mock Ups</h2>
+	<div class="row" id="mockup1">
+			<div class="col-sm-12">
+				<img src="images/AcornScreen.png" class="img-responsive center-block" alt="Image">
+				<h3 class="gallery-titles" id="image-title">Acorn Screen</h3>
+			</div>
+	</div>
+	<div class="row" id="mockup2-1">
+		<h3 class="gallery-titles" id="gallery-subtitle">Yahoo Digest</h3>
+		<div class="col-md-4">
+			<img src="images/1Tour Screen One.png" class="img-responsive center-block" alt="Image">
+			<h3 class="gallery-titles" id="image-title">1 Tour Screen One</h3>
+		</div>
+		<div class="col-md-4">
+			<img src="images/2Tour Screen Two.png" class="img-responsive center-block" alt="Image">
+			<h3 class="gallery-titles" id="image-title">2 Tour Screen Two</h3>
+		</div>
+		<div class="col-md-4">
+			<img src="images/3Tour Screen Three.png" class="img-responsive center-block" alt="Image">
+			<h3 class="gallery-titles" id="image-title">3 Tour Screen Three</h3>
+		</div>
+	</div>
+    	<div class="row" id="mockup2-2">
+		<div class="col-md-4">
+			<img src="images/4Tour Screen Four.png" class="img-responsive center-block" alt="Image">
+			<h3 class="gallery-titles" id="image-title">4 Tour Screen Four</h3>
+		</div>
+		<div class="col-md-4">
+			<img src="images/5Customize it Screen.png" class="img-responsive center-block" alt="Image">
+			<h3 class="gallery-titles" id="image-title">5 Customize it Screen</h3>
+		</div>
+		<div class="col-md-4">
+			<img src="images/6Default Screen.png" class="img-responsive center-block" alt="Image">
+			<h3 class="gallery-titles" id="image-title">6 Default Screen</h3>
+		</div>
+	</div>
+		<div class="row" id="mockup2-3">
+		<div class="col-md-4">
+			<img src="images/7Reminder Screen.png" class="img-responsive center-block" alt="Image">
+			<h3 class="gallery-titles" id="image-title">7 Reminder Screen</h3>
+		</div>
+		<div class="col-md-4">
+			<img src="images/8Information Screen.png" class="img-responsive center-block" alt="Image">
+			<h3 class="gallery-titles" id="image-title">8 Information Screen</h3>
+		</div>
+		<div class="col-md-4">
+			<img src="images/9Individule Article Screen.png" class="img-responsive center-block" alt="Image">
+			<h3 class="gallery-titles" id="image-title">9 Individule Article Screen</h3>
+		</div>
+	</div>
+
+	<h2 class="gallery-titles" id="gallery-subtitle">Icon design/Splash Page</h2>
+	<div class="row" id="icon">
+		<div class="col-md-6">
+			<img src="images/MP-flatwhite-pink.png" class="img-responsive center-block" alt="Image">
+			<h3 class="gallery-titles" id="image-title">Magic Poser Icon Design</h3>
+		</div>
+		<div class="col-md-6">
+			<img src="images/SplashPage-blackwhite.png" class="img-responsive center-block" alt="Image">
+			<h3 class="gallery-titles" id="image-title">Magic Poser Splash Page Design</h3>
+		</div>
+	</div>
+	<h2 class="gallery-titles" id="gallery-subtitle">WireFrame</h2>
+	<div class="row" id="icon">
+		<div class="col-md-12">
+			<img src="images/Screen Shot 2017-04-05 at 7.39.57 PM.png" class="img-responsive center-block" alt="Image">
+			<h3 class="gallery-titles" class="gallery-titles" id="image-title">Magic Poser Re-Design</h3>
+		</div>
+	</div>
+
+	<div id="root"></div>
+	<script type="text/babel" src="scripts/example.js"></script>
+</body>
+</html>
